@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
 
-  "name": "Copy JIRA Markdown",
+  "name": "OneCopy",
   "description": "Save page URI and page title and selected text to clipboard.",
   "version": "1.0",
   "background": {

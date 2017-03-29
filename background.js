@@ -1,12 +1,12 @@
 chrome.contextMenus.create({
-   title: "Copy text as JIRA Markdown",
+   title: "OneCopy text",
    contexts:["selection"],
    onclick: function(info ,tab) {
      saveToClipboard(makeSelectionInfoWithJiraMarkdown(tab.title, tab.url, info.selectionText));
    }
 });
 chrome.contextMenus.create({
-   title: "Copy tab info as JIRA Markdown",
+   title: "OneCopy tab info",
    contexts:["page"],
    onclick: function(info ,tab) {
      saveToClipboard(makeTabInfoWithJiraMarkdown(tab.title, tab.url));
